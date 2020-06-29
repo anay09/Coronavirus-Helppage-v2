@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>COVID-19 Information</title>
+        <title>My Webpage</title>
         <link rel="stylesheet" href="stylesheet-1.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">      
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -29,39 +29,117 @@
             <footer style="text-align: right; color: darkgrey">Author : Anay Chopade &nbsp; &nbsp; &nbsp; &nbsp; Github : anay09</footer>
         </nav>
         <div class = "jumbotron text-center">
-            <h1><center><b>COVID-19 Information Homepage</b></center></h1>       
-            <h3>You can get some brief information about COVID-19 on this website.</h3>
-        </div>
-
+            <h1><b>Table</b></h1>
+            <h3>This page contains a table with the top ten countries with the most number of cases.</h3>
+        </div> 
         <div class = "container">
             <hr>
-            <img src = "img.jpg" width = 40% align = right>
-            <h2>What is COVID-19?</h2>
-            <p>COVID-19 is a new infectious disease caused by a newly discovered coronavirus.
-            The majority of people with the COVID-19 virus experience mild to moderate respiratory
-            illness and recover without requiring special treatment. Older people and those with underlying 
-            medical problems are highly likely to be infected by this disease. Examples of these medical 
-            problems could be : 
-            </p>
-            <ul id = "vertical_list">
-                <li>Cardiovascular disease</li>
-                <li>Diabetes</li>
-                <li>Chronic respiratory disease</li>
-                <li>Cancer</li>
-            </ul>
+            <p>These are the top ten countries that are affected in descending order in terms of number of cases as of 20th June 2020.</p>
+            <table class = "table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Country</th>
+                        <th>Number of Cases</th>
+                        <th>Number of Deaths</th>
+                        <th>Number of Recoveries</th>
+                        <th>Number of Tests</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <th>USA</th>
+                        <th>2,297,360</th>
+                        <th>121,407</th>
+                        <th>956,077</th>
+                        <th>27,339,576</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Brazil</th>
+                        <th>1,038,568</th>
+                        <th>49,090</th>
+                        <th>520,360</th>
+                        <th>2,409,830</th>                        
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Russia</th>
+                        <th>576,952</th>
+                        <th>8,002</th>
+                        <th>334,592</th>
+                        <th>16,600,000</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>India</th>
+                        <th>396,661</th>
+                        <th>12,971</th>
+                        <th>214,346</th>
+                        <th>6,616,496</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>UK</th>
+                        <th>301,815</th>
+                        <th>42,461</th>
+                        <th>N/A</th>
+                        <th>7,433,114</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>Spain</th>
+                        <th>292,655</th>
+                        <th>28,315</th>
+                        <th>N/A</th>
+                        <th>4,826,516</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>Peru</th>
+                        <th>247,925</th>
+                        <th>7,660</th>
+                        <th>135,520</th>
+                        <th>1,461,266</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>Italy</th>
+                        <th>238,011</th>
+                        <th>34,561</th>
+                        <th>181,907</th>
+                        <th>4,889,103</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>Chile</th>
+                        <th>231,393</th>
+                        <th>4,093</th>
+                        <th>191,491</th>
+                        <th>923,513</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>Iran</th>
+                        <th>202,584</th>
+                        <th>9,507</th>
+                        <th>161,384</th>
+                        <th>1,395,675</th>
+                    </tr>
+                </tbody>
+            </table>
             <hr>
-            <h8>If you want any more information about COVID-19 : </h8>
-            <a href = "https://www.nhs.uk/conditions/coronavirus-covid-19/">Click here</a><hr>          
+            <p>This is a small table with the top ten countries and if you want to see more variables and entities within a table :</p>
+            <a href = "https://www.worldometers.info/coronavirus/">Click here</a><br><hr><br>
             <button><a href = "index.html">Homepage</a></button>
             <button><a href = "table.html">Table</a></button>
-            <button><a href = "symptoms.html">Symptoms</a></button> 
-            <button><a href = "precaution.html">Precautions</a></button>   
-
-            <hr>
+            <button><a href = "symptoms.html">Symptoms</a></button>
+            <button><a href = "precaution.html">Precautions</a></button>
         </div>
         <br>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">      
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">      
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -74,13 +152,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="symptoms.html">Symptoms</a>
                     </li>
-
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="precaution.html">Precautions</a>
-                    </li>
+                    </li>                    
                 </ul>
             </div>
-            <footer style="text-align: right; color: darkgrey">Author : Anay Chopade &nbsp; &nbsp; &nbsp; &nbsp; Github : anay09</footer>
+            <footer style="text-align: right; color: darkgrey">Author : Anay Chopade &nbsp; &nbsp; &nbsp; &nbsp;  Github : anay09</footer>
         </nav>
     </body>
 </html>
