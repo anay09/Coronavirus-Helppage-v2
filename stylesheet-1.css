@@ -1,0 +1,44 @@
+#vertical_list, div p {
+  font-size: 20;
+  text-align: justify;
+}
+
+body {
+  font-family: "Arial";
+}
+
+#vertical_list {
+  margin-left: 20px;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+.container {
+  background-color: #f8f9f9;
+}
+
+@media screen and (max-width: 991.5px) {
+  .container {
+    background-color: dimgrey;
+    color: whitesmoke;
+  }
+}
+#DOs ul {
+  background-color: darkgreen;
+  color: chartreuse;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#DONTs ul {
+  background-color: darkred;
+  color: red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 280px;
+}
+
+/*# sourceMappingURL=stylesheet-1.css.map */
