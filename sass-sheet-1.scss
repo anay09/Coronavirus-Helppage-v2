@@ -1,0 +1,57 @@
+%common {
+    font-size : 20;
+    text-align: justify;
+}
+
+$margin : 20px;
+
+body {
+    font-family : 'Arial';
+}
+
+div {
+    p {
+        @extend %common;    
+    }
+}
+
+#vertical_list {
+    @extend %common;
+    margin-left : $margin;
+}
+
+img {
+    float : right;
+    margin-left: $margin;
+}
+
+
+.container {
+    background-color :  #f8f9f9 ;
+}
+
+@media screen and (max-width : 991.5px) {
+    .container{
+        background-color: dimgrey;
+        color: whitesmoke;
+    }
+}
+
+#DOs {
+    ul{
+        background-color: darkgreen;
+        color: chartreuse;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+    }
+}
+
+#DONTs {
+    ul{
+        background-color: darkred;
+        color: red;
+        padding-top: 20px;
+        padding-bottom: 20px;   
+        height: 280px;
+    }
+}
